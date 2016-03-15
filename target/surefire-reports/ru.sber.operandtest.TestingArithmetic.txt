@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: ru.sber.operandtest.TestingArithmetic
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.331 sec <<< FAILURE! - in ru.sber.operandtest.TestingArithmetic
+checkOperation[0](ru.sber.operandtest.TestingArithmetic)  Time elapsed: 0.254 sec  <<< FAILURE!
+java.lang.AssertionError: Invalid arithmetic operation: 4
+	at org.junit.Assert.fail(Assert.java:88)
+	at ru.sber.operandtest.TestingArithmetic.getResult(TestingArithmetic.java:86)
+	at ru.sber.operandtest.TestingArithmetic.checkOperation(TestingArithmetic.java:60)
+
+checkOperation[9](ru.sber.operandtest.TestingArithmetic)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: Division by zero!
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at ru.sber.operandtest.TestingArithmetic.getResult(TestingArithmetic.java:79)
+	at ru.sber.operandtest.TestingArithmetic.checkOperation(TestingArithmetic.java:60)
+

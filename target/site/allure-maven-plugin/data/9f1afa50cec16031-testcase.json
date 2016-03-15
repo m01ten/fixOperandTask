@@ -1,0 +1,92 @@
+{
+  "uid" : "9f1afa50cec16031",
+  "name" : "checkOperation[4]",
+  "title" : "Testing string from file",
+  "time" : {
+    "start" : 1458016934207,
+    "stop" : 1458016934213,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "81fc63bed48dd45d",
+    "name" : "ru.sber.operandtest.TestingArithmetic",
+    "title" : "Testing arithmetic"
+  },
+  "steps" : [ {
+    "name" : "getString[10, 2, 5.0, /]",
+    "title" : "Checking string 10/2=5",
+    "time" : {
+      "start" : 1458016934209,
+      "stop" : 1458016934209,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getResult[10, 2]",
+    "title" : "Calculation result...",
+    "time" : {
+      "start" : 1458016934211,
+      "stop" : 1458016934211,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "validate[5.0, 5.0]",
+    "title" : "Expected result = 5 compare with result from file = 5",
+    "time" : {
+      "start" : 1458016934213,
+      "stop" : 1458016934213,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "nt08"
+  }, {
+    "name" : "thread",
+    "value" : "10053@nt08.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "ru.sber.operandtest.TestingArithmetic"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

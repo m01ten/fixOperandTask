@@ -1,0 +1,92 @@
+{
+  "uid" : "714c1bf585c2ff64",
+  "name" : "checkOperation[3]",
+  "title" : "Testing string from file",
+  "time" : {
+    "start" : 1458016934201,
+    "stop" : 1458016934206,
+    "duration" : 5
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "81fc63bed48dd45d",
+    "name" : "ru.sber.operandtest.TestingArithmetic",
+    "title" : "Testing arithmetic"
+  },
+  "steps" : [ {
+    "name" : "getString[4, 2, 8.0, *]",
+    "title" : "Checking string 4*2=8",
+    "time" : {
+      "start" : 1458016934203,
+      "stop" : 1458016934203,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getResult[4, 2]",
+    "title" : "Calculation result...",
+    "time" : {
+      "start" : 1458016934204,
+      "stop" : 1458016934204,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "validate[8.0, 8.0]",
+    "title" : "Expected result = 8 compare with result from file = 8",
+    "time" : {
+      "start" : 1458016934206,
+      "stop" : 1458016934206,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "nt08"
+  }, {
+    "name" : "thread",
+    "value" : "10053@nt08.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "ru.sber.operandtest.TestingArithmetic"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

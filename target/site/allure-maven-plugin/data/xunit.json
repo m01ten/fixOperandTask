@@ -1,0 +1,137 @@
+{
+  "time" : {
+    "start" : 1458016933971,
+    "stop" : 1458016934241,
+    "duration" : 270
+  },
+  "testSuites" : [ {
+    "uid" : "81fc63bed48dd45d",
+    "name" : "ru.sber.operandtest.TestingArithmetic",
+    "title" : "Testing arithmetic",
+    "time" : {
+      "start" : 1458016933971,
+      "stop" : 1458016934241,
+      "duration" : 270
+    },
+    "statistic" : {
+      "total" : 10,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "ce8ddc830212dc79",
+      "name" : "checkOperation[0]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016933971,
+        "stop" : 1458016934183,
+        "duration" : 212
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "22910ebed029a9ac",
+      "name" : "checkOperation[1]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016934184,
+        "stop" : 1458016934190,
+        "duration" : 6
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "dd74a079eb44ba7d",
+      "name" : "checkOperation[2]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016934194,
+        "stop" : 1458016934200,
+        "duration" : 6
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "714c1bf585c2ff64",
+      "name" : "checkOperation[3]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016934201,
+        "stop" : 1458016934206,
+        "duration" : 5
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9f1afa50cec16031",
+      "name" : "checkOperation[4]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016934207,
+        "stop" : 1458016934213,
+        "duration" : 6
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ad8b43a5362c52ed",
+      "name" : "checkOperation[5]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016934214,
+        "stop" : 1458016934218,
+        "duration" : 4
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "63b61764681ce3ad",
+      "name" : "checkOperation[6]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016934220,
+        "stop" : 1458016934224,
+        "duration" : 4
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8165e4909bafdbdc",
+      "name" : "checkOperation[7]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016934226,
+        "stop" : 1458016934230,
+        "duration" : 4
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "bddc80cb50e0e521",
+      "name" : "checkOperation[8]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016934231,
+        "stop" : 1458016934236,
+        "duration" : 5
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a2c288efe211ab9a",
+      "name" : "checkOperation[9]",
+      "title" : "Testing string from file",
+      "time" : {
+        "start" : 1458016934237,
+        "stop" : 1458016934241,
+        "duration" : 4
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  } ]
+}
